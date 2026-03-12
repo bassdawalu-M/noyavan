@@ -1,0 +1,682 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    height: 100vh;
+    background-image: url("https://www.noy.am/images/first-slider-image1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 100%;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 200px 0 200px;
+}
+
+.med {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.med a {
+    color: white;
+    text-decoration: none;
+}
+.med a:hover{
+    color: #b9b9b9;
+}
+.fa-solid {
+    display: none;
+}
+
+.marg h1 {
+    font-size: 100px;
+    color: white;
+
+}
+
+.marg {
+    max-width: 700px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 200px;
+    position: absolute;
+    top: 0;
+}
+
+.mas2 {
+    padding: 60px 16vw 60px 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mas2 h1 {
+    font-family: monospace;
+    font-size: 40px;
+    padding: 30px 0 30px 0;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+.mas2 p {
+
+    font-size: 25px;
+    text-align: center;
+    color: #2d2d2d;
+}
+
+.noyaqua {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background: linear-gradient(189.78deg, #a0cdea 7.35%, #3a84b4 92.65%);
+    padding: 80px 200px 80px 200px;
+    align-items: center;
+
+}
+
+.gifshish {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.shishabs {
+    position: absolute;
+}
+
+.gifradius {
+    border-radius: 50%;
+}
+
+.bordertext {
+    height: 100%;
+    width: 600px;
+    display: flex;
+    padding: 0 10px 0 10px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h1color {
+    color: white;
+    /* font-family: sans-serif; */
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.pcolor {
+    color: white;
+    font-size: 22px;
+    /* font-family: sans-serif; */
+    padding-bottom: 30px;
+}
+
+.buthref a {
+    text-decoration: none;
+}
+
+.but {
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(48 101 133 / var(--tw-bg-opacity));
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.teq {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.but:hover {
+        background: #124767;
+
+}
+
+.bjnigreen {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background: linear-gradient(189.78deg, #99d9a6 7.35%, #4eb11f 92.65%);
+    padding: 80px 200px 80px 200px;
+    align-items: center;
+}
+
+.bjnitext {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 30px;
+    padding: 0 10px 0 10px;
+}
+
+.bjnitext h1 {
+    font-size: 40px;
+
+}
+
+.bjnitext p {
+    font-size: 22px;
+}
+
+.butbjni a {
+    text-decoration: none;
+}
+
+.butbj {
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(32 129 13 / var(--tw-bg-opacity));
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.butbj:hover{
+    background: #026300;
+}
+.gifvd {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.videobjni {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bjnishish {
+    position: absolute;
+    
+}
+.mas3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(57 131 179 / var(--tw-bg-opacity));
+}
+.opsh{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    
+}
+.mek{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 147px 80px 147px 120px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.mek p{
+    font-size: 22px;
+    width: 360px;
+    color: #2d2d2d;
+}
+.nerqin h1{
+    --tw-text-opacity: 1;
+    color: rgb(17 29 71 / var(--tw-text-opacity));
+    font-size: 40px;
+    width: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.erku{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nkar{
+    width: 50%;
+    height: 50%;
+    background-image: url("https://www.noy.am/social-images/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.nkar2{
+    width: 50%;
+    height: 50%;
+    background-image: url("https://www.noy.am/social-images/img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.nkar3{
+    width: 50%;
+    height: 50%;
+    background-image: url("https://www.noy.am/social-images/img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.nkar4{
+    width: 50%;
+    height: 50%;
+    background-image: url("https://www.noy.am/social-images/img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.nerqin{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    padding: 120px 444px;
+    display: flex;
+    justify-content: space-between;
+        --tw-bg-opacity: 1;
+    background-color: rgb(17 29 71 / var(--tw-bg-opacity));
+    font-family: sans-serif;
+}
+.color{
+    color: white;
+}
+.puchur:hover{
+    color: #b9b9b9;
+}
+.fontsz{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+}
+.navig{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.txt{
+    display: flex;
+    align-items: center;
+}
+.puchur{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 12px;
+        --tw-text-opacity: 1;
+    color: #2d2d2d;
+    padding: 24px 0 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+@media screen and (max-width:1530px) {
+    .back {
+        background-image: url("http://noy.am/images/first-slider-image1-Txl.png");
+    }
+    footer{
+        padding: 80px 180px;
+    }
+    header {
+        padding: 24px 150px 0 150px;
+    }
+
+    .text {
+        padding-left: 150px;
+    }
+
+    .marg h1 {
+        font-size: 70px;
+    }
+
+    .mas2 {
+        padding: 40px 16vw 40px 16vw;
+    }
+
+    .mas2 h1 {
+        font-size: 30px;
+    }
+
+    .mas2 p {
+        font-size: 20px;
+    }
+
+    .gifradius {
+        width: 350px;
+        height: 350px;
+    }
+
+    .shishabs {
+        width: 350px;
+    }
+
+    .noyaqua {
+        padding: 80px 120px 80px 120px;
+    }
+
+    .h1color {
+        font-size: 32px;
+    }
+    .pcolor{
+        font-size: 15px;
+    }
+    .bjnigreen {
+        padding: 80px 120px 80px 120px;
+    }
+    .opsh{
+        height: 480px;
+    }
+    .mek h1{
+        font-size: 32px;
+        width: 300px;
+    }
+    .mek{
+        padding: 147px 80px 147px 80px;
+    }
+    .mek p{
+        font-size: 16px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .noyaqua {
+        flex-direction: column;
+        height: 80vh;
+        gap: 10px;
+    }
+    
+    .wid{
+        width: 50%;
+        height: 240px;
+    }
+    .mas3{
+        height: auto;
+        padding: 80px 0 80px 0;
+        
+    }
+    .mek{
+        padding: 64px 80px 64px 80px;
+        align-items: center;
+        text-align: center;
+    }
+    .nerqin h1{
+        justify-content: center;
+    }
+    .erku{
+        
+        width: 100%;
+    }
+    .opsh{
+    height: auto;
+    }
+    .gifradius {
+        width: 350px;
+        height: 350px;
+    }
+
+    .shishabs {
+        width: 350px;
+    }
+
+    .bordertext {
+        width: auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .buthref {
+        display: flex;
+        justify-content: center;
+    }
+    .opsh{
+        flex-direction: column;
+    }
+    .bjnigreen {
+        flex-direction: column-reverse;
+        height: 80vh;
+        gap: 20px;
+    }
+
+    .bjnitext {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .butbjni {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bjnitext h1 {
+        font-size: 32px;
+    }
+
+    .bjnishish {
+        width: 350px;
+    }
+
+    .gifvd {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .back {
+        background-image: url("https://www.noy.am/images/first-slider-image1-xl.png");
+    }
+    footer{
+        padding: 80px 80px;
+    }
+    header {
+        padding: 24px 60px 0 60px;
+    }
+
+    .text {
+        padding-left: 60px;
+    }
+    .bjnitext{
+        gap: 20px;
+    }
+    .med {
+        display: none;
+    }
+
+    .fa-solid {
+        display: flex;
+        font-size: 30px;
+        color: white;
+    }
+
+    /* .marg{
+        width: 700px;
+    } */
+}
+
+@media screen and (max-width:830px) {
+    .back {
+        background-image: url("https://www.noy.am/images/first-slider-image1-md.png");
+    }
+    .marg {
+        max-width: 400px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .text {
+        align-items: flex-start;
+        margin-top: 250px;
+        height: 70vh;
+    }
+    .marg h1 {
+        font-size: 60px;
+    }
+    .mas2 {
+        padding: 40px 10vw 40px 10vw;
+    }
+    .mas3{
+        height: auto;
+    }
+    .noyaqua{
+        padding: 80px 40px 80px 40px;
+    }
+    .bjnigreen{
+        padding: 80px 40px 80px 40px;
+
+    }
+    .mek{
+        padding: 40px 31px 40px 31px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .noyaqua {
+        padding: 100px 50px 80px 50px;
+    }
+    /* .mas3{
+        height: 72vh;
+    } */
+    .h1color {
+        font-size: 27px;
+    }
+
+    .bjnitext h1 {
+        font-size: 27px;
+    }
+    
+    .opsh{
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width:470px) {
+    .mek h1{
+        font-size: 22px;
+    }
+    .mek p{
+        font-size: 14px;
+    }
+    .mas3{
+        height: 50%;
+    }
+    .opsh{
+        height: 50%;
+    }
+    .wid{
+        height: 148px;
+    }
+    .nerqin{
+        
+        align-items: center;
+    }
+    .nerqin p{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .back {
+        height: 90vh;
+        background-image: url("https://www.noy.am/images/first-slider-image1-sm.png");
+    }
+
+    header {
+        padding: 18px 20px 0 20px;
+    }
+
+    .text {
+        padding-left: 30px;
+        margin-top: 180px;
+    }
+
+    .marg h1 {
+        font-size: 35px;
+    }
+    
+
+    
+    .h1color{
+        font-size: 25px;
+    }
+    .noyaqua {
+        padding: 100px 10px 40px 10px;
+    }
+    .bjnigreen{
+        padding: 60px 10px 40px 10px;
+    }
+    .bjnitext p{
+        font-size: 18px;
+    }
+    .gifradius{
+        width: 300px;
+        height: 300px;
+        max-width: 100%;
+    }
+    .shishabs{
+        height: 430px;
+        max-width: 100%;
+    }
+    .bjnishish{
+        width: 300px;
+        height: 430px;
+        max-width: 100%;
+
+    }
+    .gifvd{
+        width: 300px;
+        height: 300px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .bjnigreen{
+        height: 70vh;
+    }
+    .noyaqua{
+        height: 70vh;
+    }
+}
+
+
+
+
